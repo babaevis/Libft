@@ -6,7 +6,7 @@
 /*   By: kroyce <kroyce@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 17:44:27 by kroyce            #+#    #+#             */
-/*   Updated: 2020/11/02 16:17:36 by kroyce           ###   ########.fr       */
+/*   Updated: 2020/11/27 22:42:52 by kroyce           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+void	ft_putstr(char *str);
+void	ft_putchar(char c);
+int		pf_putnbr(int nb);
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
